@@ -1,10 +1,10 @@
 from flask import Flask, request, redirect, render_template, url_for
-import api.db
+# import api.db
 
 app = Flask(
     __name__,
     template_folder='../templates',
-    static_folder='/static'
+    static_folder='../static'
 )
 
 
