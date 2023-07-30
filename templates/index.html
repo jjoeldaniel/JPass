@@ -16,7 +16,7 @@
     <div class="form">
       <h2>Login</h2>
       <form id="login-form">
-        <label for="username">Username:</label>
+        <label id="user" for="username">Username:</label>
         <input type="text" id="username" name="username" required />
         <br />
         <label for="Password">Password</label>
@@ -56,7 +56,7 @@
             if (data.status != "success") {
               console.error(data.message);
             }
-          })
+          });
       });
     </script>
   </body>

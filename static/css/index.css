@@ -49,9 +49,21 @@ h2 {
 
 form {
   border: 1px solid #ccc;
-  width: 400px;
-  height: 200px;
+  width: 450px;
+  height: 250px;
   border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 350px;
+  }
+}
+
+#user {
+  padding-top: 14px;
 }
 
 label {
